@@ -1,0 +1,102 @@
+﻿body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(117deg,#080416,#170c46 135%);
+}
+
+.register-form {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(117deg,#170c46,#080416 80%);
+    left: 37%;
+    top: 20%;
+    border-radius: 23px;
+    box-shadow: 0 0 25px 10px black;
+}
+
+.input {
+    width: 350px;
+    left: 14%;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-size: 15pt;
+    font-family: 'Trebuchet MS';
+    height: 40px;
+    border: 0;
+    box-shadow: 0 10px 35px 10px black;
+    top: 15%;
+    position: relative;
+}
+
+    .input:focus {
+        outline: none;
+    }
+
+.button {
+    width: 350px;
+    height: 50px;
+    position: relative;
+    font-size: 16pt;
+    font-family: 'Trebuchet MS';
+    border: 0;
+    top: 20%;
+    left: 15%;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #4c4eb5;
+    transition: 0.3s;
+    color: white;
+}
+
+    .button:hover {
+        transition: 0.3s;
+        background: #393b82;
+    }
+
+.header {
+    font-size: 30pt;
+    letter-spacing: 5px;
+    color: white;
+    position: relative;
+    padding: 15px;
+    top: 10%;
+    left: 23%;
+    text-align:center;
+    width: 225px;
+    border: 1px solid white;
+    font-family: 'Trebuchet MS';
+}
+
+.sign-in-link {
+    font-size: 13.5pt;
+    color: #4c4eb5;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 10px;
+}
+    .sign-in-link:hover {
+        color: #2d2e68;
+    }
+.sign-up-link {
+    font-size: 13.5pt;
+    color: #4c4eb5;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 10px;
+}
+    .sign-up-link:hover {
+        color: #2d2e68;
+    }
+.check {
+    left: 25%;
+    bottom: 15%;
+    position: absolute;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
